@@ -1,0 +1,15 @@
+.card__container{
+    position: relative;
+    height: 40vh;
+    width: 400px;
+    background-image: url(https://www.fool.co.uk/mywallethero/wp-content/uploads/sites/10/2018/12/NatWest-Rewards-Card-e1543941977968.jpg);
+    background-size: 100% 100%;
+}
+.card__container span{
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    background-color: antiquewhite;
+    height: 20px;
+    letter-spacing: 2px ;
+}
