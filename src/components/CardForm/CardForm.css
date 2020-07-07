@@ -1,0 +1,22 @@
+.form{
+    display: grid;
+    grid-template-rows: repeat(5, .45fr);
+    gap: .5em;
+    height: 35vh;
+    padding: 2em;
+    border: 1px solid grey;
+
+}
+.form input{
+    outline: 0;
+    border-radius: .5em;
+    box-shadow: none;
+    padding: .5em;
+}
+.form__control{
+    padding: 1em 0;
+}
+.form__control input{
+    width: 3em;
+    margin: 0 1em;
+}
